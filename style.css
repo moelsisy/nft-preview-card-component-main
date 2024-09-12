@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+  min-height: 470px;
+  width: 320px;
+  border-radius: 15px;
+  display: flex;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.content .eye {
+  width: 270px;
+  height: 271px;
+  position: absolute;
+  bottom: 312px;
+  border-radius: 10px;
+  background-color: hsla(178, 100%, 50%, 0.349);
+  text-align: center;
+  opacity: 0;
+  transition: .2s ease-in;
+}
+
+.content .eye:hover {
+    opacity: 1;
+}
+
+.content .eye .view {
+  padding: 109px 0;
+}
+
+.content .pic {
+  width: 270px;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+.content .pic:hover {
+  cursor: pointer;
+  
+}
+.main-text h3 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  display: inline-block;
+  transition: all .2s ease-in;
+}
+
+.main-text h3:hover {
+  color:hsl(178, 100%, 50%) ;
+  cursor:default  ;
+}
+
+
+.main-text p {
+  color: hsla(215, 52%, 70%, 0.74);
+  padding-top: 15px;
+}
+
+.all-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-1 {
+  display: flex;
+
+  align-items: center;
+  gap: 8px;
+}
+
+.icons-1 img {
+  width: 10px;
+  margin: 20px 0px;
+}
+
+.icons-1 span {
+  color: hsl(178, 100%, 50%);
+}
+
+.icons-2 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.icons-2 img {
+  width: 15px;
+  margin: 20px 0px;
+}
+
+.icons-2 span {
+  color: hsla(215, 52%, 70%, 0.74);
+}
+
+hr {
+  border: solid hsla(215, 52%, 70%, 0.089) 1px;
+}
+
+#end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 15px;
+  margin-bottom: 5px;
+}
+
+#end img {
+  width: 32px;
+  border: rgba(255, 255, 255, 0.986) 1px solid;
+  border-radius: 50%;
+  margin: 20px 0px;
+}
+
+.end p {
+  display: inline-block;
+  color: hsla(215, 52%, 70%, 0.74);
+}
+
+.end span {
+  color: rgba(255, 255, 255, 0.76);
+  transition: all .2s ease-in;
+}
+
+
+.end span:hover {
+  color: hsla(178, 71%, 57%, 0.952) ;
+  cursor: default;
+}
