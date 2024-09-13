@@ -37,7 +37,7 @@ body {
   width: 270px;
   height: 271px;
   position: absolute;
-  bottom: 312px;
+  margin-top: 18px;
   border-radius: 10px;
   background-color: hsla(178, 100%, 50%, 0.349);
   text-align: center;
